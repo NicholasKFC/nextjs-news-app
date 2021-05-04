@@ -1,0 +1,25 @@
+.news-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.news-card {
+	border-right: 1px solid #263238;
+	border-bottom: 1px solid #263238;
+	width: 500px;
+	margin: 0px 25px;
+}
+
+.news-card img {
+	width: 100%;
+}
+
+.news-paginator {
+	display: flex;
+	justify-content: center;
+}
+
+.news-paginator button {
+	margin: 25px;
+}
